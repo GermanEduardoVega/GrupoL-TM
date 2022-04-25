@@ -1,1 +1,56 @@
+Metodología de la Investigación
 
+GrupoL-TM
+
+Integrantes: 
+
+  Bulos Zair
+  Araya Alejo
+  Vega German
+  Croce Lautaro
+  Vargas Rodrigo
+
+
+Nombre del proyecto: 
+
+  AlquilaYa
+
+
+Objetivo:
+	
+  El objetivo principal del presente proyecto se basa en simplificar la gestión de alquiler de autos, entre clientes y empresa.
+  Al usuario se le presentará una interfaz gráfica simple y rápida, la cual facilitará el proceso de alquiler y disminuirá el tiempo empleado para la renta y devolución del vehículo. 
+  Por medio de otra interfaz, la administración tendrá acceso al control, actualización y mantenimiento del stock de los vehículos a disposición.
+
+
+Especificación del proyecto:
+
+  El proyecto cuenta con dos interfaces gráficas. Una para la vista del usuario y otra para la vista del administrador (empresa de alquiler). 
+  La interfaz de usuario tendrá como primera ventana gráfica la opción de alquilar o devolver un vehículo. 
+  Si se elige la opción de alquilar aparecerá una segunda ventana con todos los vehículos disponibles en el momento. Cada uno con una especificación bien detallada (imagen, marca, modelo, km, precio de alquiler, etc).
+
+  Si al usuario le interesa un vehículo en particular, tendrá la opción de registrarse (si aún no se ha registrado) o ingresar (si ya está registrado). 
+
+  El registro tiene los siguiente campos obligatorios:
+    Nombre completo.
+    Pasaporte (extranjero) o CUIL (Argentino) 
+    Licencia de conducir.
+    Edad (Fecha de nacimiento).
+    Foto (Reconocimiento Facial).
+    Casilla de “Términos y Condiciones”.
+
+  Una vez verificado los datos del registro y/o el ingreso haya sido correcto, el usuario deberá cargar los datos de su tarjeta de crédito. Cabe resaltar que aunque el usuario esté registrado y anteriormente haya ingresado los datos de una tarjeta, estos no se guardan para una mayor seguridad del usuario.
+  Verificado el pago realizado, el sistema lanzará una ventana con un mensaje informando al usuario de que puede retirar la llave del vehículo. 
+  Cuando haya finalizado el periodo de alquiler, el usuario deberá ingresar a través de pasaporte o CUIL y reconocimiento facial.
+ 
+ 
+Base tecnológica:
+
+  Paradigma: Programación orientada a objetos.
+  Lenguaje: Python (Versión 3.10.4).
+  Base de datos: MySQL (Versión 8.0.28).
+  Repositorio: GitHub.
+  IDE: Atom.
+  Metodología de desarrollo: Tradicional (Prototipado)
+
+  Se basa en la construcción de un prototipo de software que se construye rápidamente para que los usuarios puedan probarlo y aportar feedback. Así, se puede arreglar lo que está mal e incluir otros requerimientos que puedan surgir. Es un modelo iterativo que se basa en el método de prueba y error para comprender las especificidades del producto.
