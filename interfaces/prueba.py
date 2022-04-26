@@ -7,9 +7,8 @@ root.title("Principal")
 root.geometry("800x600")
 
 
-def validacion(valor, ventana):
-
-    if valor == "Rodrigo":
+def validacion(valor):
+    if valor is "Rodrigo":
         ventanaAdmin()
     else:
         messagebox.showwarning("Error", "Contraseña incorrecta")
@@ -19,12 +18,11 @@ def nuevaVentana():
     root.withdraw()
     ventana2 = Toplevel()
     ventana2.geometry("800x600")
-    ventana2.configure(background="black")
     ventana2.title("Iniciar Sesion")
     etiqueta = Label(ventana2, text="Ingrese contraseña").place(x=10, y=10)
     valorEntrada = Entry(ventana2).place(x=10, y=50)
-    Button(ventana2, text="valida",
-           command=partial(validacion, valorEntrada, ventana2)).place(x=10, y=90)
+    botonvalidar = Button(ventana2, text="validar",
+                          command=partial(validacion, valorEntrada)).place(x=10, y=90)
 
 
 def ventanaAdmin():
