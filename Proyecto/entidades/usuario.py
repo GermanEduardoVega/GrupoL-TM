@@ -3,14 +3,14 @@ class Usuario():
     # Constructor
     def __init__(self, nombre, apellido, carnetConducir,
                  fechaNacimiento, correo, esExtranjero, cuil, pasaporte):
-        self.__nombre = nombre
-        self.__apellido = apellido
-        self.__carnetConducir = carnetConducir
-        self.__fechaNacimiento = fechaNacimiento
-        self.__correo = correo
-        self.__esExtranjero = esExtranjero
-        self.__cuil = cuil
-        self.__pasaporte = pasaporte
+        self.__nombre = nombre  # String
+        self.__apellido = apellido  # String
+        self.__carnetConducir = carnetConducir  # Alfanumerico
+        self.__fechaNacimiento = fechaNacimiento  # int
+        self.__correo = correo  # Alfanumerico
+        self.__esExtranjero = esExtranjero  # Boolean
+        self.__cuil = cuil  # int
+        self.__pasaporte = pasaporte  # Alfanumerico
 
     # Getters (Métodos get)
 
